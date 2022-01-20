@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reto: matemáticas con JavaScript</title>
+    <script src="./reto.js"></script>
+</head>
+<body>
+    
+    <section class="triangulo">
+        <h2>Cacula el área y perímetro de un triangulo</h2>
+        <form action="">
+            
+            <h3>¿Cuánto mide cada lado de un triangulo Isóceles?</h3>
+            
+            <label for="inputlado1">
+                ¿Cuánto mide lado1?
+                <input id="inputlado1" type="number">
+            </label>
+
+            <label for="inputlado2">
+                ¿Cuánto mide lado2?
+                <input id="inputlado2" type="number">
+            </label>
+            <label for="inputbase">
+                ¿Cuánto mide base?
+                <input id="inputbase" type="number">
+            </label>
+            
+            <button type="button" onclick="calcularPerimetroTriangulo()">
+                Calcular perímetro
+            </button>
+            <button type="button" onclick="calcularAreaTriangulo()">
+                Calcular área
+            </button>
+        </form>
+    </section>
+
+</body>
+</html>
