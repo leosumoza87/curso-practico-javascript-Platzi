@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cupones de descuento</title>
+    <script src="./cuponDescuento.js"></script>
+</head>
+<body>
+    <header>
+        <h1>Comprando con cupones de descuentos</h1>
+    </header>
+    <Section>
+        <h2>Has tu compra ya y usa tu cupon de descuento para que tengas el mejor preciod el mercado</h2>
+        <form action="">
+            <label for="price">
+                ¿Cúal es el precio de tu producto?
+                <input type="number" id="price">
+            </label>
+            <label for="cupon">
+                escribe el codigo de tu cupon de descuento:
+                <input type="text" id="cupon">
+            </label>
+            <button type="button" onclick="calculoCuponDescuento()">
+                Calcular el precio de descuento
+            </button>
+            <p id="result"></p>
+        </form>
+    </Section>
+</body>
+</html>

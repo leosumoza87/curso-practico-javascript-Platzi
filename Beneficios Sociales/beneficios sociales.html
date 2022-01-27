@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Liquidacion y benefícios sociales</title>
+    <script src="./beneficiosSociales.js"></script>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <header>
+        <h1>Cálculo de liquidación y beneficios sociales</h1>
+    </header>
+    <section>
+        <form action="">
+            <label class="label1" for="remuneracionBase">
+                <span>Ingrese el monto de su ultimo salario devengado</span>
+                <input id="remuneracionBase" type="number">
+            </label>
+            <label class="label2" for="fechaIngreso">
+                <span>Indique la fecha de ingreso a la empresa</span>
+                <input id="fechaIngreso" type="date">
+            </label>
+            <label  class="label3" for="fechaUltGrat">
+                <span>Indique la fecha de su ultima gratificacion percibida</span>
+                <input id="fechaUltGrat" type="date">
+            </label>
+            <label  class="label4" for="UltGrat">
+                <span>Indique el monto de su ultima gratificacion</span>
+                <input id="UltGrat" type="number">
+            </label>
+            <label class="label5" for="fechaUltVac">
+                <span>Indique la fecha de sus ultimmas vacaciones pagadas</span>
+                <input id="fechaUltVac" type="date">
+            </label>
+            <label  class="label6" for="fechaCese">
+                <span>Indique la fecha de cese de labores</span>
+                <input id="fechaCese" type="date">
+            </label>
+            <button type="button" onclick="calculoLiquidacion()">
+                Enviar
+            </button>
+        </form>
+
+        <p id="result"></p>
+    </section>
+</body>
+</html>
